@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 Fragment homefragment = new HomeFragment();
                 try {
                     if (task.isSuccessful()) {
-                        Toast.makeText(MainActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "Login", Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(MainActivity.this, SecondActivity.class));
 //                        try{
 //                            FragmentTransaction movetohome = getSupportFragmentManager().beginTransaction();
