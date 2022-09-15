@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<RelativeLayout
+    android:id="@+id/homefragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2">
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    <TextView
+        android:id="@+id/homeAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:padding="30dp"
+        android:text="Your Acccount"
+        android:textColor="#444242"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/homeImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_baseline_account_circle_24"
+        android:layout_marginTop="80dp"
+        android:textColor="#444242"/>
+
+    <TextView
+        android:id="@+id/homeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homeImage"
+        android:background="#80ffffff"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Palak Verma"
+        android:textColor="#444242"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/homeDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homeName"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="60dp"
+        android:background="#80ffffff"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Details: Team A
+                      - Android Development"
+        android:textColor="#444242"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/homeTeam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homeDetails"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="60dp"
+        android:background="#80ffffff"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Team member:
+                      - Rinku Saini"
+        android:textColor="#444242"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/homeManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homeTeam"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="60dp"
+        android:background="#80ffffff"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Manager:
+                            - Kuldeep Sharma"
+        android:textColor="#444242"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>
+</ScrollView>

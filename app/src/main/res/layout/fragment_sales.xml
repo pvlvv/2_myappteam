@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SalesFragment"
+    android:id="@+id/sales"
+    android:background="@drawable/back2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sales"
+        android:textSize="50sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="70dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textColor="#444242"/>
+
+</FrameLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2">
+
+    <TextView
+        android:id="@+id/chat_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat"
+        android:textSize="50sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="70dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textColor="#444242"/>
+
+    <CheckBox
+        android:id="@+id/option_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chat_heading"
+        android:text="Teammate"
+        android:textSize="15sp"
+        android:textColor="#444242"/>
+
+    <CheckBox
+        android:id="@+id/option_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/option_one"
+        android:text="Manager"
+        android:textSize="15sp"
+        android:textColor="#444242"/>
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/option_two"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#90ffffff"
+        android:hint="Your name"
+        android:lines="2"
+        android:maxLines="6"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textColorHint="#939393"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/chat_msgbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#90ffffff"
+        android:hint="Write here:"
+        android:lines="2"
+        android:maxLines="6"
+        android:padding="40dp"
+        android:textColor="#000000"
+        android:textColorHint="#A6A6A6"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/chat_sendbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#4a7542"
+        android:padding="15dp"
+        android:text="SEND" />
+    
+
+
+</RelativeLayout>

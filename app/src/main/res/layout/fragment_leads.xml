@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LeadsFragment"
+    android:id="@+id/leads"
+    android:background="@drawable/back2">
+
+    <TextView
+        android:id="@+id/leads_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leads"
+        android:textSize="50sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="70dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textColor="#444242"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_marginTop="170dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous Customer ?"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#444242"/>
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:id="@+id/yesCheck"
+            android:textColor="#444242"/>
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:id="@+id/noCheck"
+            android:textColor="#444242"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name of the Lead:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#444242"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Write the name of the supplier or the company"
+            android:textColor="#444242"/>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4a7542"
+            android:text="Submit"
+            android:id="@+id/submitLeads"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_baseline_move_to_inbox_24"
+            android:title="Inbox" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_baseline_chat_24"
+            android:title="Chat" />
+        <item
+            android:id="@+id/nav_sales"
+            android:icon="@drawable/ic_baseline_bar_chart_24"
+            android:title="Sales" />
+        <item
+            android:id="@+id/nav_leads"
+            android:icon="@drawable/ic_baseline_content_paste_24"
+            android:title="Leads" />
+
+    </group>
+
+    <item android:title="communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:title="Logout"/>
+        </menu>
+    </item>
+
+</menu>
