@@ -26,7 +26,8 @@
         android:layout_height="match_parent"
         android:padding="15dp"
         android:orientation="vertical"
-        android:layout_marginTop="170dp">
+        android:layout_marginTop="130dp"
+        android:background="#40444242">
 
 
         <TextView
@@ -66,6 +67,7 @@
 
 
         <EditText
+            android:id="@+id/leadsName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
@@ -78,10 +80,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#4a7542"
-            android:text="Submit"
+            android:text="Add And save"
             android:id="@+id/submitLeads"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="70dp"/>
+            android:layout_marginTop="30dp"/>
+
+
+
+        <ListView
+            android:id="@+id/ListLeads"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"/>
 
 
     </LinearLayout>
